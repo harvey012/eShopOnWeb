@@ -83,7 +83,7 @@ jobs:
       with:
         subscriptionId: ${{ env.SUBSCRIPTION-ID }}
         resourceGroupName: ${{ env.RESOURCE-GROUP }}
-        template: bicep-template/webapp.bicep
+        template: bicep-template/infra/webapp.bicep
         failOnStdErr: false   
     
     # Publish website to Azure App Service (WebApp)
